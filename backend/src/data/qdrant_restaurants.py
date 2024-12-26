@@ -93,8 +93,8 @@ def process_and_store_documents():
 
     print("Creating Qdrant vector store...")
     client = QdrantClient(
-        url="https://9de09ba7-f0fa-4003-9310-18b9f09eeba4.us-east4-0.gcp.cloud.qdrant.io:6333",  # Thay thế bằng URL của bạn
-        api_key="ng7DyRFNkzVhiOBgE2YEnMfiBZ3pnR0p3SirSvN484HF8C8zarF6pA"  # Thay thế bằng API key của bạn
+        url="your_api_key",  # Thay thế bằng URL của bạn
+        api_key="your_api_key"  # Thay thế bằng API key của bạn
     )
 
     collection_name = "products_collection_384d"  # Đặt tên collection mới
